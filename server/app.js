@@ -8,6 +8,6 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, "./public/views/index.html"));
 });
 
-app.listen(app.get('port'), funtion(){
+app.listen(app.get('port'), function(){
     console.log("Hey! We are listening on Port: " + app.get('port'));
 });
